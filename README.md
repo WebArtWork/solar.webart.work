@@ -18,3 +18,6 @@ Solar is a lodging and leisure complex in the village of Колибаївка (n
 
 ## Notes
 The page states that photos are illustrative only, and that details like cottage count, capacity, amenities, pricing, minimum stay length, pool dimensions/season/hours, and BBQ equipment are not confirmed and should be verified with Solar before booking.
+
+## Forms
+Live form posting to HotelOS (`kp-solar`): `stay-request` (section `#stay-request`, before the gallery). No service forms: pool, gazebos and BBQ have no separate booking form.

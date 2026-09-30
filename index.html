@@ -41,6 +41,8 @@
     footer{background:#172020;color:#bec9c8;padding:70px 0 100px}.foot{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:35px}.foot h4{font-size:.67rem;text-transform:uppercase;letter-spacing:.12em;color:#fff}.foot a{display:block;font-size:.78rem;margin:8px 0}.copyright{border-top:1px solid #ffffff1d;margin-top:42px;padding-top:18px;font-size:.68rem}.mobile-cta{display:none}
     @media(max-width:950px){.links,.nav>.btn{display:none}.phone{margin-left:auto}.hero-inner{grid-template-columns:1fr}.address-card{display:none}.facts{grid-template-columns:1fr 1fr}.intro-grid,.stay-grid,.gazebo-grid,.location-grid{grid-template-columns:1fr}.mode-grid{grid-template-columns:1fr 1fr}.day-grid{grid-template-columns:repeat(3,1fr)}.moment{border-bottom:1px solid var(--line)}.foot{grid-template-columns:1fr 1fr 1fr}.foot-brand{grid-column:span 3}}
     @media(max-width:620px){.wrap{width:min(100% - 28px,1200px)}.section{padding:75px 0}.nav{height:76px}.hero{min-height:800px}.hero-inner{padding:130px 0 68px}.hero h1{font-size:5.2rem;margin-bottom:40px}.hero h2{font-size:1.55rem}.sun-disc{width:150px;height:150px}.facts{margin-top:0}.fact{padding:18px;border-radius:18px}.fact i{width:28px;height:28px;margin-bottom:12px}.sun-type{font-size:4rem}.intro-list{grid-template-columns:1fr}.intro-list div:nth-child(odd){margin-right:0}.mode-grid{grid-template-columns:1fr}.mode{min-height:220px}.pool{min-height:650px}.pool-word{font-size:5rem}.stay-photo{height:430px;border-radius:30px 30px 110px 30px}.gazebo-cards{grid-template-columns:1fr}.gazebo-card{min-height:240px}.bbq{min-height:650px}.day-grid{grid-template-columns:1fr 1fr}.together-grid{grid-template-columns:1fr}.scenario{min-height:340px}.gallery{grid-template-columns:1fr;grid-template-rows:auto}.gallery figure,.gallery figure:first-child{grid-column:auto;height:230px}.foot{grid-template-columns:1fr 1fr}.foot-brand{grid-column:span 2}.mobile-cta{position:fixed;z-index:60;display:grid;grid-template-columns:.85fr 1.15fr;bottom:0;left:0;right:0;padding:8px;background:#fff;box-shadow:0 -8px 25px #0002}.mobile-cta .btn{min-height:44px;padding:0 7px;font-size:.62rem}.mobile-cta .btn:first-child{background:#fff;color:var(--ink)}body{padding-bottom:60px}}
+    .request{background:#fff}.request-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}.request-phone{display:inline-block;margin-top:22px;font-size:1.5rem;font-weight:800;color:#c95a17}.request-form{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px;padding:34px;border-radius:var(--radius);background:var(--cream);border:1px solid var(--line)}.field{display:grid;gap:7px;align-content:start;min-width:0;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.field.full{grid-column:1/-1}.field small{font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}.field input,.field select,.field textarea{width:100%;max-width:100%;min-width:0;min-height:52px;padding:12px 18px;border:1.5px solid var(--line);border-radius:16px;background:var(--white);color:var(--ink);font-size:1rem;font-weight:500;letter-spacing:0;text-transform:none}.field textarea{min-height:110px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid var(--sun);outline-offset:1px}.field [aria-invalid=true]{border-color:#b3400c}[data-error-for]{font-weight:600;letter-spacing:0;text-transform:none;color:#b3400c}[data-error-for]:empty{display:none}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.request-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:16px}.request-foot .btn[disabled]{opacity:.6;cursor:wait;transform:none}.request-note{flex:1;min-width:200px;margin:0;font-size:.75rem;color:var(--muted)}[data-status]{grid-column:1/-1;margin:0;padding:14px 18px;border-radius:16px;border-left:4px solid var(--sun);background:#fff3d6;font-size:.92rem}[data-status]:empty{display:none}[data-status][data-state=error]{border-color:#b3400c;background:#fde8dc}[data-status] a{font-weight:800;text-decoration:underline}
+    @media(max-width:950px){.request-grid{grid-template-columns:1fr;gap:36px}}@media(max-width:620px){.request-form{grid-template-columns:1fr;padding:22px 16px;border-radius:24px}}
     .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.16,.8,.3,1),transform .9s cubic-bezier(.16,.8,.3,1)}.reveal.visible{opacity:1;transform:none}
     .reveal-item{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.16,.8,.3,1),transform .8s cubic-bezier(.16,.8,.3,1)}.reveal-group.visible .reveal-item{opacity:1;transform:none}
     .reveal-group.visible .reveal-item:nth-child(1){transition-delay:0s}.reveal-group.visible .reveal-item:nth-child(2){transition-delay:.09s}.reveal-group.visible .reveal-item:nth-child(3){transition-delay:.18s}.reveal-group.visible .reveal-item:nth-child(4){transition-delay:.27s}.reveal-group.visible .reveal-item:nth-child(5){transition-delay:.36s}.reveal-group.visible .reveal-item:nth-child(6){transition-delay:.45s}.reveal-group.visible .reveal-item:nth-child(7){transition-delay:.54s}.reveal-group.visible .reveal-item:nth-child(8){transition-delay:.63s}
@@ -60,18 +62,19 @@
     <section class="section"><div class="wrap intro-grid"><div class="sun-photo reveal"><img src="images/pool-retreat.jpg" alt="Ілюстративний відпочинок біля басейну в Solar" loading="lazy"></div><div class="reveal"><p class="eyebrow">Не просто переночувати</p><h2 class="title">Сама локація, частина відпочинку</h2><p class="lead">У Solar можна провести час біля басейну, зібратися в альтанці, запланувати BBQ та залишитися у будиночку. Це зовсім інший сценарій, ніж просто заселитися й піти в місто.</p><div class="intro-list"><div>День біля води</div><div>Вечір в альтанці</div><div>BBQ разом</div><div>Ніч у будиночку</div></div><a class="btn" href="#modes">Відкрити Solar</a></div></div></section>
     <section class="section modes" id="modes"><div class="wrap"><p class="eyebrow">Оберіть формат</p><h2 class="title">Яким буде ваш Solar?</h2><div class="mode-grid reveal-group"><article class="mode reveal-item"><span>01 · День</span><div><h3>День біля басейну</h3><p>День біля води.</p></div></article><article class="mode reveal-item"><span>02 · Сім’я</span><div><h3>Сімейний вікенд</h3><p>Відпочинок разом із сім’єю.</p></div></article><article class="mode reveal-item"><span>03 · Друзі</span><div><h3>Компанія друзів</h3><p>Альтанка, BBQ та басейн.</p></div></article><article class="mode reveal-item"><span>04 · Ночівля</span><div><h3>Ночівля</h3><p>Будиночок і ще один день відпочинку.</p></div></article></div></div></section>
     <section class="pool" id="pool"><div class="wrap pool-copy"><div class="pool-word" aria-hidden="true">БАСЕЙН</div><p class="eyebrow">Плавання</p><h2 class="title">Почніть із басейну</h2><p class="lead">У Solar підтверджена наявність басейну, одного з головних елементів літнього відпочинку. Розміри, сезон, години роботи й умови доступу потрібно уточнювати перед поїздкою.</p><a class="btn sun" href="tel:+380680480090">Запитати про відпочинок</a></div></section>
-    <section class="section stay" id="stay"><div class="wrap stay-grid"><div class="stay-photo reveal"><img src="images/cottage-interior.jpg" alt="Ілюстративний інтер’єр будиночка; актуальні варіанти уточнюйте в Solar" loading="lazy"></div><div class="reveal"><p class="eyebrow">Проживання</p><h2 class="title">Залишайтеся на ніч</h2><p class="lead">Solar пропонує оренду будиночків. Саме будиночок, а не звичайний готельний номер, є основою формату проживання.</p><div class="stay-points"><div>Відпочинок із ночівлею</div><div>Ще один ранок у Solar</div><div>Будиночок як частина weekend-сценарію</div></div><p class="note">Фото ілюстративне. Кількість будиночків, категорії, місткість, оснащення, ціни та мінімальний термін проживання не підтверджені.</p><div class="actions"><a class="btn" href="tel:+380680480090">Запитати про будиночки</a></div></div></div></section>
+    <section class="section stay" id="stay"><div class="wrap stay-grid"><div class="stay-photo reveal"><img src="images/cottage-interior.jpg" alt="Ілюстративний інтер’єр будиночка; актуальні варіанти уточнюйте в Solar" loading="lazy"></div><div class="reveal"><p class="eyebrow">Проживання</p><h2 class="title">Залишайтеся на ніч</h2><p class="lead">Solar пропонує оренду будиночків. Саме будиночок, а не звичайний готельний номер, є основою формату проживання.</p><div class="stay-points"><div>Відпочинок із ночівлею</div><div>Ще один ранок у Solar</div><div>Будиночок як частина weekend-сценарію</div></div><p class="note">Фото ілюстративне. Кількість будиночків, категорії, місткість, оснащення, ціни та мінімальний термін проживання не підтверджені.</p><div class="actions"><a class="btn" href="#stay-request">Залишити запит</a><a class="btn" href="tel:+380680480090">Запитати про будиночки</a></div></div></div></section>
     <section class="section gazebo" id="gazebos"><div class="wrap gazebo-grid"><div><p class="eyebrow">Відпочинок</p><h2 class="title">Свій простір для компанії</h2><p class="lead">У Solar підтверджені альтанки, формат для сім’ї, друзів, outdoor-вечері або невеликого приводу зібратися разом.</p><a class="btn sun" href="tel:+380680480090">Запитати про альтанку</a></div><div class="gazebo-cards reveal-group"><article class="gazebo-card reveal-item"><strong>Сімейний день</strong><p>Альтанка як місце зустрічі між басейном і вечерею.</p></article><article class="gazebo-card reveal-item"><strong>Компанія друзів</strong><p>Зібратися разом і не поспішати додому.</p></article></div></div></section>
     <section class="bbq" id="bbq"><div class="wrap bbq-copy"><p class="eyebrow">BBQ</p><h2 class="bbq-line">Тут вечерю можна приготувати самим</h2><p class="lead">У вихідних даних підтверджена BBQ-зона. Наявність мангала, вугілля, дров, шампурів і посуду потрібно уточнити перед відпочинком.</p><a class="btn sun" href="#planner">Планувати BBQ</a></div></section>
     <section class="section day"><div class="wrap"><p class="eyebrow">Один день у Solar</p><h2 class="title">Ваш день у Solar</h2><div class="day-grid reveal-group"><article class="moment reveal-item"><b>1</b><h3>Ранок</h3><p>Приїхати й почати відпочинок.</p></article><article class="moment reveal-item"><b>2</b><h3>День</h3><p>Басейн.</p></article><article class="moment reveal-item"><b>3</b><h3>Після обіду</h3><p>Час на території.</p></article><article class="moment reveal-item"><b>4</b><h3>Вечір</h3><p>BBQ та альтанка.</p></article><article class="moment reveal-item"><b>5</b><h3>Ніч</h3><p>Будиночок.</p></article><article class="moment reveal-item"><b>6</b><h3>Наступний ранок</h3><p>Нікуди не поспішати.</p></article></div><p class="gallery-note">Сценарій і час наведені як ідея відпочинку; точний заїзд і виїзд уточнюйте під час бронювання.</p></div></section>
     <section class="section together"><div class="wrap"><p class="eyebrow">Разом</p><h2 class="title">Більше часу разом</h2><div class="together-grid reveal-group"><article class="scenario reveal-item"><h3>Зберіть друзів</h3><p>Басейн → альтанка → BBQ → вечір → будиночок.</p><a class="btn sun" href="#planner">Планувати weekend</a></article><article class="scenario reveal-item"><h3>Відпочинок усією сім’єю</h3><p>Будиночок і outdoor-формат для спільного дня. Спеціальні дитячі зручності не заявляються без підтвердження.</p><a class="btn sun" href="tel:+380680480090">Запитати сімейний формат</a></article></div></div></section>
     <section class="section location" id="contacts"><div class="wrap location-grid"><div><p class="eyebrow">Розташування</p><h2 class="title">Де знаходиться Solar</h2><p class="lead" style="color:#143e43">Solar розташований у селі Колибаївка, не в самому Кам’янці-Подільському.</p><p><b>с. Колибаївка<br>вул. Травнева, 22</b></p><div class="actions"><a class="btn" href="https://maps.app.goo.gl/SenGMmYHNFMMuLgi9" target="_blank" rel="noopener">Відкрити в Google Maps</a></div></div><a class="map-card" href="https://maps.app.goo.gl/2W8h2Fgmg7iWBbVk8" target="_blank" rel="noopener" aria-label="Відкрити Solar на Google Maps"><iframe src="https://www.google.com/maps?q=Solar,+вул.+Травнева+22,+Колибаївка&output=embed" title="Карта розташування Solar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a></div></section>
-    <section class="section planner" id="planner"><div class="wrap"><p class="eyebrow">Контакти</p><h2 class="title">Зв'яжіться з нами</h2><p class="lead">Зателефонуйте, щоб дізнатися про будиночки, басейн, альтанки та BBQ.</p><div class="planner-contact"><a class="btn sun" href="tel:+380680480090">+38 068 048 00 90</a><address><b>с. Колибаївка<br>вул. Травнева, 22</b></address><a class="btn light" href="https://maps.app.goo.gl/SenGMmYHNFMMuLgi9" target="_blank" rel="noopener">Відкрити в Google Maps</a></div></div></section>
+    <section class="section planner" id="planner"><div class="wrap"><p class="eyebrow">Контакти</p><h2 class="title">Зв'яжіться з нами</h2><p class="lead">Зателефонуйте, щоб дізнатися про будиночки, басейн, альтанки та BBQ.</p><div class="planner-contact"><a class="btn sun" href="tel:+380680480090">+38 068 048 00 90</a><address><b>с. Колибаївка<br>вул. Травнева, 22</b></address><a class="btn light" href="https://maps.app.goo.gl/SenGMmYHNFMMuLgi9" target="_blank" rel="noopener">Відкрити в Google Maps</a></div><div class="actions" style="justify-content:center"><a class="btn sun" href="#stay-request">Залишити запит онлайн</a></div></div></section>
+    <section class="section request" id="stay-request"><div class="wrap request-grid"><div class="reveal"><p class="eyebrow">Запит на відпочинок</p><h2 class="title">Залиште номер, ми передзвонимо</h2><p class="lead">Вкажіть телефон і, за бажанням, дати та кількість гостей. Ми зателефонуємо, щоб розповісти про будиночки, басейн, альтанки й BBQ та підтвердити умови.</p><a class="request-phone" href="tel:+380680480090">+38 068 048 00 90</a></div><form class="request-form reveal" data-hotelos data-form-name="Запит на проживання" novalidate><label class="field full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span data-error-for="phone"></span></label><label class="field">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="field">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="field">Дата заїзду<input name="checkIn" type="date"></label><label class="field">Дата виїзду<input name="checkOut" type="date"><span data-error-for="checkOut"></span></label><label class="field full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><div class="request-foot"><button class="btn sun" type="submit">Надіслати запит</button><p class="request-note">Номер використаємо лише для відповіді на цей запит.</p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
     <section class="section" id="gallery"><div class="wrap"><p class="eyebrow">Галерея</p><h2 class="title">Solar виглядає краще наживо</h2><div class="gallery reveal-group"><figure class="reveal-item"><img src="images/pool-retreat.jpg" alt="Ілюстративний літній відпочинок біля басейну" loading="lazy"></figure><figure class="reveal-item"><img src="images/cottage-interior.jpg" alt="Ілюстративний інтер’єр будиночка" loading="lazy"></figure><div class="gallery-card reveal-item">Басейн · Будиночки</div><figure class="reveal-item"><img src="images/bbq-evening.jpg" alt="Ілюстративний BBQ-вечір біля альтанки" loading="lazy"></figure><div class="gallery-card aqua reveal-item">Альтанки · BBQ</div></div><p class="gallery-note">Зображення ілюстративні та передають формат відпочинку. Актуальний вигляд басейну, будиночків, альтанок і BBQ-зони уточнюйте в Solar.</p></div></section>
-    <section class="final"><div class="wrap"><h2 class="title">Ці вихідні можуть виглядати інакше</h2><p>Басейн, BBQ, альтанка, будиночок і трохи більше часу разом.</p><div class="actions"><a class="btn sun" href="#planner">Забронювати відпочинок</a><a class="btn light" href="tel:+380680480090">+38 068 048 00 90</a></div><small>Басейн · Будиночки · Альтанки · BBQ</small></div></section>
+    <section class="final"><div class="wrap"><h2 class="title">Ці вихідні можуть виглядати інакше</h2><p>Басейн, BBQ, альтанка, будиночок і трохи більше часу разом.</p><div class="actions"><a class="btn sun" href="#stay-request">Забронювати відпочинок</a><a class="btn light" href="tel:+380680480090">+38 068 048 00 90</a></div><small>Басейн · Будиночки · Альтанки · BBQ</small></div></section>
   </main>
   <footer><div class="wrap"><div class="foot"><div class="foot-brand"><a class="logo" href="#top"><strong>SOLAR</strong><small>Будиночки · Басейн · BBQ</small></a><p>Купайтеся. Відпочивайте.<br>Готуйте. Залишайтеся.</p></div><div><h4>Проживання</h4><a href="#stay">Будиночки</a><a href="#planner">Бронювання</a></div><div><h4>Відпочинок</h4><a href="#pool">Басейн</a><a href="#gazebos">Альтанки</a><a href="#bbq">BBQ</a></div><div><h4>Інформація</h4><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a><a href="https://maps.app.goo.gl/SenGMmYHNFMMuLgi9" target="_blank" rel="noopener">Карта</a></div></div><div class="copyright">© Solar · с. Колибаївка, вул. Травнева, 22 · +38 068 048 00 90 · Умови басейну, будиночків, альтанок і BBQ підтверджуйте перед відпочинком.</div></div></footer>
-  <div class="mobile-cta"><a class="btn" href="tel:+380680480090">Зателефонувати</a><a class="btn" href="#planner">Забронювати</a></div>
+  <div class="mobile-cta"><a class="btn" href="tel:+380680480090">Зателефонувати</a><a class="btn" href="#stay-request">Забронювати</a></div>
   <script>
     const observer=new IntersectionObserver(entries=>entries.forEach(e=>e.isIntersecting&&e.target.classList.add('visible')),{threshold:.1});document.querySelectorAll('.reveal,.reveal-group').forEach(el=>observer.observe(el));
     const reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -84,6 +87,153 @@
         addEventListener('scroll',()=>{const r=hero.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight)heroMedia.style.transform=`translateY(${scrollY*.28}px)`},{passive:true});
       }
     }
+  </script>
+  <script type="module">
+// HotelOS site forms. Paste this whole block into the site's index.html as an inline module
+// script right before the closing body tag, and set the three constants below. Never put a
+// literal closing script tag inside this file: it would end the inline script early.
+// Contract (hotelos.webart.work/CRM.md → Submission data contract, firestore.rules):
+// - every form is <form data-hotelos data-form-name="…" novalidate> inside a <section id="{formId}">;
+//   the section id IS the formId (stable slug, e.g. stay-request, sauna-request) and the CRM
+//   links to SITE + '#' + formId, so the link scrolls to the start of that section;
+// - fields are matched by name: phone (required), name, email, message, checkIn, checkOut, guests,
+//   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
+// - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
+const HOTEL_ID = 'kp-solar'; // Firestore hotels/{id}: 'kp-' + site folder name
+const SITE = 'https://solar.webart.work/'; // from the site's CNAME
+const PHONE = '+38 068 048 00 90'; // shown when sending fails
+
+const FIREBASE = {
+	apiKey: 'AIzaSyBeSB5EuC4BBSpmCGA3Pjk7dD_JV2SdcSQ',
+	authDomain: 'hotel-upwork.firebaseapp.com',
+	projectId: 'hotel-upwork',
+	appId: '1:40129364672:web:c9659550ebf0f1d8a36325',
+};
+const SDK = 'https://www.gstatic.com/firebasejs/12.19.0/';
+const TEXT_FIELDS = ['name', 'email', 'message', 'checkIn', 'checkOut', 'date', 'time', 'roomType', 'service'];
+const today = new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+let db;
+async function firestore() {
+	if (db) return db;
+	// Loaded on first submit only, so the page itself stays light.
+	const [{ initializeApp }, lite] = await Promise.all([import(SDK + 'firebase-app.js'), import(SDK + 'firebase-firestore-lite.js')]);
+	db = { lite, store: lite.getFirestore(initializeApp(FIREBASE)) };
+	return db;
+}
+
+function setup(form) {
+	const formId = form.closest('section[id]')?.id;
+	if (!formId) return console.error('HotelOS form needs a parent <section id="formId">', form);
+	const field = (name) => form.elements.namedItem(name);
+	const statusEl = form.querySelector('[data-status]');
+	const submit = form.querySelector('[type=submit]');
+	const submitLabel = submit.textContent;
+	const gendersBox = form.querySelector('[data-genders]');
+
+	for (const name of ['checkIn', 'checkOut', 'date']) if (field(name)) field(name).min = today;
+	if (field('checkIn') && field('checkOut')) {
+		field('checkIn').addEventListener('change', () => {
+			const checkIn = field('checkIn').value;
+			field('checkOut').min = checkIn || today;
+			if (field('checkOut').value && field('checkOut').value <= checkIn) field('checkOut').value = '';
+		});
+	}
+
+	// Hostels: one gender select per guest, kept in sync with the guests count.
+	function renderGenders() {
+		if (!gendersBox) return;
+		const count = Math.min(Math.max(parseInt(field('guests')?.value, 10) || 1, 1), 20);
+		const current = [...gendersBox.querySelectorAll('select')].map((select) => select.value);
+		gendersBox.replaceChildren(
+			...Array.from({ length: count }, (_, i) => {
+				const label = document.createElement('label');
+				label.textContent = `Гість ${i + 1}`;
+				const select = document.createElement('select');
+				select.name = 'gender';
+				select.required = true;
+				select.innerHTML = '<option value="">Стать</option><option value="female">Жінка</option><option value="male">Чоловік</option>';
+				select.value = current[i] ?? '';
+				label.append(select);
+				return label;
+			}),
+		);
+	}
+	if (gendersBox) {
+		field('guests')?.addEventListener('input', renderGenders);
+		renderGenders();
+	}
+
+	function setError(name, text) {
+		const input = field(name);
+		if (input instanceof Element) input.setAttribute('aria-invalid', text ? 'true' : 'false');
+		const slot = form.querySelector(`[data-error-for="${name}"]`);
+		if (slot) slot.textContent = text;
+	}
+
+	function showStatus(state, html) {
+		statusEl.dataset.state = state;
+		statusEl.innerHTML = html;
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		showStatus('', '');
+		const phone = field('phone').value.trim();
+		const digits = phone.replace(/\D/g, '');
+		setError('phone', digits.length < 9 || digits.length > 15 ? 'Вкажіть номер телефону, щоб ми могли передзвонити.' : '');
+		if (field('checkIn') && field('checkOut')) {
+			const { value: checkIn } = field('checkIn');
+			const { value: checkOut } = field('checkOut');
+			setError('checkOut', checkIn && checkOut && checkOut <= checkIn ? 'Дата виїзду має бути пізніше за дату заїзду.' : '');
+		}
+		const genderSelects = gendersBox ? [...gendersBox.querySelectorAll('select')] : [];
+		if (gendersBox) {
+			const missing = genderSelects.some((select) => !select.value);
+			for (const select of genderSelects) select.setAttribute('aria-invalid', missing && !select.value ? 'true' : 'false');
+			const slot = form.querySelector('[data-error-for="genders"]');
+			if (slot) slot.textContent = missing ? 'Вкажіть стать кожного гостя, щоб ми підібрали місця.' : '';
+		}
+		const invalid = form.querySelector('[aria-invalid=true]');
+		if (invalid) return invalid.focus();
+
+		const thanks = `Дякуємо! Ми зателефонуємо на ${phone.replace(/</g, '')} найближчим часом.`;
+		// Bots fill the hidden field: pretend success, send nothing.
+		if (field('website')?.value) {
+			form.reset();
+			renderGenders();
+			return showStatus('ok', thanks);
+		}
+
+		const lead = { phone, formId, formName: form.dataset.formName, site: SITE, hotelId: HOTEL_ID };
+		for (const name of TEXT_FIELDS) {
+			const value = field(name)?.value?.trim();
+			if (value) lead[name] = value;
+		}
+		const guests = parseInt(field('guests')?.value, 10);
+		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
+
+		submit.disabled = true;
+		submit.textContent = 'Надсилаємо…';
+		try {
+			const { lite, store } = await firestore();
+			await lite.addDoc(lite.collection(store, 'submissions'), { ...lead, status: 'new', history: [], createdAt: lite.serverTimestamp() });
+			form.reset();
+			if (field('checkOut')) field('checkOut').min = today;
+			renderGenders();
+			showStatus('ok', thanks);
+		} catch (error) {
+			console.error(error);
+			showStatus('error', `Не вдалося надіслати запит. Зателефонуйте нам: <a href="tel:${PHONE.replace(/[^\d+]/g, '')}">${PHONE}</a>.`);
+		} finally {
+			submit.disabled = false;
+			submit.textContent = submitLabel;
+		}
+	});
+}
+
+document.querySelectorAll('form[data-hotelos]').forEach(setup);
   </script>
 </body>
 </html>
